@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import MainNavbar from './navbar/navbar.js'
+
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 class App extends Component {
     constructor(props){
@@ -24,6 +28,7 @@ class App extends Component {
     var { isLoaded, articles } = this.state;
     return (
       <div>
+      <MainNavbar />
       <p>test</p>
         {articles.map(item => item.id ) }
       </div>
