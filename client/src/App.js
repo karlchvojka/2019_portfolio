@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import MainNavbar from './navbar/navbar.js'
+import {Container, Row, Col } from 'react-bootstrap';
+import MainNavbar from './components/navbar/navbar.js'
+import Seperator from './components/seperator/';
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import './App.scss'
 
 
 class App extends Component {
@@ -25,13 +28,14 @@ class App extends Component {
     };
 
     render() {
+    let aboutTitle = 'About';
     var { isLoaded, articles } = this.state;
     return (
-      <div>
-      <MainNavbar />
-      <p>test</p>
-        {articles.map(item => item.id ) }
-      </div>
+      <Container fluid="true" className="noPadding">
+      <MainNavbar noGutter="true"/>
+      <Seperator name={aboutTitle} />
+        {articles.map(item => item.title ) }
+      </Container>
     );
   }
 }
