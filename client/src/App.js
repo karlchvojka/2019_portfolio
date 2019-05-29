@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {Container, Row, Col } from 'react-bootstrap';
 import MainNavbar from './components/navbar/navbar.js'
 import Seperator from './components/seperator/';
+import Slider from './components/slider/';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.scss'
@@ -31,11 +31,12 @@ class App extends Component {
     let aboutTitle = 'About';
     var { isLoaded, articles } = this.state;
     return (
-      <Container fluid="true" className="noPadding">
+    <main>
       <MainNavbar noGutter="true"/>
+      <Slider />
       <Seperator name={aboutTitle} />
         {articles.map(item => item.title ) }
-      </Container>
+    </main>
     );
   }
 }
