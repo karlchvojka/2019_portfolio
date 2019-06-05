@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
+import Head1 from '../../assets/head1.png';
 
 class About extends Component {
   render() {
     return (
-      <div className="aboutWrap shadow">
-        <h3>Hiya! I'm Karl Chvojka.</h3>
-        <p>I am a seasoned web developer with 6+ Years experience. I have an unending curiosity for new ideas and processes that helps expand my work. the advancement of Technology Continues to bewilder and inspires me.</p>
+      <div id="about" className="aboutWrap">
+        <div>
+        <img className="aboutImg" alt="Karl Chvojka Headshot" src={Head1} />
+        <h2>About</h2>
+          <p className="firstP">I am a Full-stack developer with 10 years of industry experience building websites, advertising campaigns, interacting with traditional media, and working in teams of people from a variety of disciplines.</p>
+          <p> I have an unending curiosity for new ideas and processes that helps expand my work. the advancement of Technology Continues to bewilder and inspires me.</p>
+        </div>
 
-        <p>I try to bring my knowledge and experince to my clients and help them make awe inspiring experinces for the viewers of their websites.</p>
       </div>
     );
   }

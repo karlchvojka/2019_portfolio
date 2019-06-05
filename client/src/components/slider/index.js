@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-
-import SliderImg from '../../assets/chronicink-slider2.jpg';
+import { Container, Row, Col } from 'react-bootstrap';
 
 class Slider extends Component {
   render() {
     return (
-      <div className="sliderWrap">
-        <img src={SliderImg} />
-      </div>
+      <section className="sliderWrap">
+        <Container fluid='true'>
+          <Row>
+            <Col className="sliderInner" xl={12} lg={12} md={12} sm={12} xs={12}>
+              <h1>Heya! I'm Karl Chvojka</h1>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     );
   }
 }

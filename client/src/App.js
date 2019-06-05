@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import MainNavbar from './components/navbar/navbar.js'
-import Seperator from './components/seperator/';
 import Slider from './components/slider/';
+import About from './components/about/';
+import Skills from './components/skills';
+import Projects from './components/Projects';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.scss'
@@ -28,13 +30,14 @@ class App extends Component {
     };
 
     render() {
-    let aboutTitle = 'About';
-    var { isLoaded, articles } = this.state;
+    var { articles } = this.state;
     return (
     <main>
       <MainNavbar noGutter="true"/>
       <Slider />
-      <Seperator name={aboutTitle} />
+      <About />
+      <Skills />
+      <Projects />
         {articles.map(item => item.title ) }
     </main>
     );
