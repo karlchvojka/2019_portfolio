@@ -368,7 +368,7 @@ footer {
 @media print {
     #Header, #Footer { display: none !important; }
 
-    .controlWrap {
+    .resumeWrap .headerWrap .controlWrap {
       display:none;
     }
 }
