@@ -22,7 +22,9 @@ class Projects extends Component {
                 <h3>Squabble: Final</h3>
                 <h4>Description</h4>
                 <p>Squabble is a budget splitting app. It allows users to view, record, and evenly split budgets while tracking infrequent purchases.</p>
-                <p><a href="https://github.com/karlchvojka/lhl-final-project"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
+                <h4>Technology Used:</h4>
+                <p>React, Ruby on Rails, Bootstrap 4</p>
+                <p className="githubLink"><a href="https://github.com/karlchvojka/lhl-final-project"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
               </div>
             </Col>
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -34,7 +36,9 @@ class Projects extends Component {
                 <h4>Description</h4>
                 <p>The Wall is a lot like Trello/Pinterest. It allows you to post and organize Resources, like links, todos, etc.</p>
                 <p>This was a group project between three people.</p>
-                <p><a href="https://github.com/basktballer/TheWallMidterm"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
+                <h4>Technology Used:</h4>
+                <p>React, Ruby on Rails, Bootstrap 4</p>
+                <p className="githubLink"><a href="https://github.com/basktballer/TheWallMidterm"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
               </div>
             </Col>
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -45,7 +49,9 @@ class Projects extends Component {
                 <h3>Tiny App</h3>
                 <h4>Description</h4>
                 <p>Tiny App is a URL shortner. This project was completed while at Lighthouse Labs.</p>
-                <p><a href="https://github.com/karlchvojka/lhl-tinyApp-project"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
+                <h4>Technology Used:</h4>
+                <p>JavaScript, NPM </p>
+                <p className="githubLink"><a href="https://github.com/karlchvojka/lhl-tinyApp-project"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
               </div>
             </Col>
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -55,8 +61,10 @@ class Projects extends Component {
                 </div>
                 <h3>Tweeter App</h3>
                 <h4>Description</h4>
-                <p>Tweeter is a Twitter clone.</p>
-                <p><a href="https://github.com/karlchvojka/tweeter"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
+                <p>Tweeter is a Twitter clone, built to practice JavaScript and MongoDB</p>
+                <h4>Technology Used:</h4>
+                <p>JavaScript, MongoDB </p>
+                <p className="githubLink"><a href="https://github.com/karlchvojka/tweeter"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
               </div>
             </Col>
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -67,7 +75,9 @@ class Projects extends Component {
                 <h3>Chatty App</h3>
                 <h4>Description</h4>
                 <p>Chatty App is a simple chatroom with websockets</p>
-                <p><a href="https://github.com/karlchvojka/chatty_app"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
+                <h4>Technology Used:</h4>
+                <p>JavaScript, Websockets </p>
+                <p className="githubLink"><a href="https://github.com/karlchvojka/chatty_app"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
               </div>
             </Col>
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
@@ -78,7 +88,9 @@ class Projects extends Component {
                 <h3>Jungle App</h3>
                 <h4>Description</h4>
                 <p>A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.</p>
-                <p><a href="https://github.com/karlchvojka/jungle-rails"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
+                <h4>Technology Used:</h4>
+                <p>JavaScript, React, Ruby on Rails, Stripe</p>
+                <p className="githubLink"><a href="https://github.com/karlchvojka/jungle-rails"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
               </div>
             </Col>
           </Row>

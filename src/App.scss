@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  font-size:1.5rem;
+  font-size:2rem;
   margin-top:2rem;
   margin-bottom:1.5rem;
   color:#00abdf;
@@ -97,7 +97,7 @@ main {
       align-self:flex-end;
       text-shadow: 2px 2px 3px #000000;
       color:#00abdf;
-      margin-left:4.5rem;
+      margin-left:2.5rem;
     }
   }
   img {
@@ -159,7 +159,6 @@ main {
     div {
       h3 {
         color:#00abdf;
-        font-size:1.5rem;
       }
       ul {
         list-style:none;
@@ -185,18 +184,22 @@ main {
   padding-top:1rem;
   background-image: url('./assets/hexrepeat2.jpg');
   background-repeat: repeat;
+  padding-bottom:20px;
 
   .cardWrap {
-    margin-top:10px;
+    margin-top:20px;
 
     .cardWrapInner {
       padding:10px;
       background-color:#ffffff;
       border: 1px solid #00abdf;
       border-radius:5px;
-      min-height:400px;
+      min-height:510px;
+      height:auto;
 
-
+      h4 {
+        margin-bottom:5px;
+      }
 
       .imgWrap {
         overflow:hidden;
@@ -206,7 +209,14 @@ main {
         img {
           width:100%;
           min-height:200px;
+          height:auto;
         }
+      }
+
+      .githubLink {
+        position:absolute;
+        bottom:0px;
+        margin-bottom:10px;
       }
     }
   }
@@ -342,6 +352,17 @@ main {
   }
 }
 /* END RESUME */
+
+/* FOOTER */
+footer {
+  height:50px;
+  border-top: 1px solid #00abdf;
+  padding-top:20px;
+  font-size:0.8rem;
+  text-transform:uppercase;
+  font-weight:700;
+}
+/* END FOOTER */
 
 /* COMMON CLASSES */
 @media print {

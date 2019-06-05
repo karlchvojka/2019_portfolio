@@ -4,6 +4,7 @@ import Slider from '../slider/';
 import About from '../about/';
 import Skills from '../skills';
 import Projects from '../Projects';
+import Footer from '../Footer';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../../App.scss'
@@ -12,20 +13,8 @@ class Home extends Component {
   constructor(props){
       super(props);
       this.state = {
-          articles: [],
           isLoaded: false,
       }
-  };
-  componentDidMount = () => {
-      fetch(`http://localhost:3000/api/v1/articles.json`)
-      .then(resp => resp.json())
-      .then(resp => {
-          this.setState({
-            isLoaded: true,
-            articles: resp
-          })
-          console.log(this.state.articles)
-      })
   };
   render() {
     var { articles } = this.state;
@@ -36,7 +25,7 @@ class Home extends Component {
       <About />
       <Skills />
       <Projects />
-        {articles.map(item => item.title ) }
+      <Footer />
     </main>
     )
   }
