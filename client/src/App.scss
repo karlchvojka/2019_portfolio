@@ -96,22 +96,19 @@ main {
   padding-bottom:1rem;
 
   div {
-    max-width:1350px;
-    margin:0 auto;
 
     h2 {
       margin-top:3rem;
       color:#00abdf;
     }
     p {
-      font-size:25px;
-      margin-bottom:0px;
+      font-size:20px;
+      margin-bottom:2rem;
     }
     .aboutImg {
       float:right;
       shape-outside: polygon(0% 0%, 100% 0%, 100% 100%);
       shape-image-threshold: 500;
-      margin-top:-3rem;
     }
   }
 
