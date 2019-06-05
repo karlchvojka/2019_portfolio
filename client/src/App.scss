@@ -1,6 +1,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
 
 /* OVERALL STYLES */
 body {
@@ -216,6 +217,26 @@ main {
 .resumeWrap {
   background-color:#ffffff;
 
+  .noGutters {
+    padding-left:0px;
+    padding-right:0px;
+  }
+  h2 {
+    font-size: 2rem;
+    color:#00abdf;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom:20px;
+  }
+
+  .hexWrap {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+    svg {
+    }
+  }
+
   .headerWrap {
     background-image: url('./assets/hexrepeat2.jpg');
     border-bottom:5px solid #00abdf;
@@ -224,17 +245,20 @@ main {
       color:#00abdf;
       border-bottom:1px solid #00abdf;
       display:block;
-      width:270px;
+      width:250px;
       margin-bottom:0px;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size:2.4rem;
     }
     h2 {
       margin:5px 0px;
-      font-size:1rem;
+      font-size:1.3rem;
       color:#000000;
       border-bottom:1px solid #00abdf;
       display:block;
       padding-bottom:5px;
-      width:270px;
+      width:250px;
+      font-family: 'Roboto Condensed', sans-serif;
     }
     p {
       font-weight:700;
@@ -246,10 +270,70 @@ main {
       }
     }
   }
+
+  .workplaceWrap {
+    h3 {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size:1.5rem;
+      color:#00abdf;
+    }
+    h4 {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size:1.2rem;
+      color:#000;
+    }
+    .dateWrap {
+      display: flex;
+      align-content: flex-end;
+      justify-content: flex-end;
+
+      p {
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align:right;
+        font-weight:700;
+        text-transform:uppercase;
+        font-size:1.2rem;
+        align-self:flex-end;
+        margin-bottom:0px;
+      }
+    }
+    .keywords {
+      font-size:.8rem;
+      font-style:italic;
+
+      span {
+        font-weight:700;
+      }
+    }
+  }
+
+  .skillsWrap {
+    background:none;
+    border-top:none;
+
+    div {
+      h2 {
+        margin-top:0px;
+      }
+      h3 {
+        font-size:1.2rem;
+      }
+      ul {
+        li {
+          p {
+            font-size:1rem;
+          }
+        }
+      }
+    }
+  }
 }
 /* END RESUME */
 
 /* COMMON CLASSES */
+@media print {
+    #Header, #Footer { display: none !important; }
+}
 .shadow {
   -webkit-box-shadow: 1px 2px 10px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 1px 2px 10px -1px rgba(0,0,0,0.75);
