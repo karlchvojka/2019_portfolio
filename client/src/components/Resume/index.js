@@ -7,6 +7,20 @@ class Resume extends Component {
       <main className="resumeWrap">
         <Container fluid="true">
           <Row className="headerWrap">
+          <Col className="controlWrap" xl={12} lg={12} md={12} sm={12} xs={12}>
+          <div>
+          <p>To save as pdf:</p>
+          <ol>
+            <li>Right click, click 'Print'</li>
+            <li>Change Destination to 'Save as PDF'</li>
+            <li>Press Save</li>
+          </ol>
+          </div>
+          <ul className="ml-auto">
+            <li><a className="btn btn-primary" href="/" target= "_blank">Go Back</a></li>
+          </ul>
+
+          </Col>
             <Col xl={12} lg={12} md={12} sm={12} xs={12}>
               <h1>Karl Chvojka</h1>
               <h2>Front End Web Developer</h2>
