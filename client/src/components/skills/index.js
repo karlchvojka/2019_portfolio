@@ -5,7 +5,7 @@ class Skills extends Component {
   render() {
     return (
       <section className="skillsWrap">
-        <Container fluid="true">
+        <Container>
         <Row className="titleWrap">
           <Col xl={12} lg={12} md={12} sm={12} xs={12}>
             <h2>Skills</h2>

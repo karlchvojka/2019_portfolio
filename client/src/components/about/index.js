@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     return (
       <section id="about" className="aboutWrap">
-        <Container fluid="true">
+        <Container>
           <Row>
             <Col xl={12} lg={12} md={12} sm={12} xs={12}>
               <img className="aboutImg" alt="Karl Chvojka Headshot" src={Head1} />
