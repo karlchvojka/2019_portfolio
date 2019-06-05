@@ -76,7 +76,7 @@ class Projects extends Component {
                 <h4>Description</h4>
                 <p>Chatty App is a simple chatroom with websockets</p>
                 <h4>Technology Used:</h4>
-                <p>JavaScript, Websockets </p>
+                <p>JavaScript, Websockets, React</p>
                 <p className="githubLink"><a href="https://github.com/karlchvojka/chatty_app"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
               </div>
             </Col>
@@ -89,7 +89,7 @@ class Projects extends Component {
                 <h4>Description</h4>
                 <p>A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.</p>
                 <h4>Technology Used:</h4>
-                <p>JavaScript, React, Ruby on Rails, Stripe</p>
+                <p>Ruby on Rails, Stripe</p>
                 <p className="githubLink"><a href="https://github.com/karlchvojka/jungle-rails"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
               </div>
             </Col>
