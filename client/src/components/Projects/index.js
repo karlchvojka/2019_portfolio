@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Head1 from '../../assets/head1.png';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -18,7 +17,7 @@ class Projects extends Component {
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
               <div className="cardWrapInner">
                 <div className="imgWrap">
-                  <img src="https://github.com/karlchvojka/lhl-final-project/raw/master/docs/budget.png"/>
+                  <img src="https://github.com/karlchvojka/lhl-final-project/raw/master/docs/budget.png" alt="Squabble App Screenshot"/>
                 </div>
                 <h3>Squabble: Final</h3>
                 <h4>Description</h4>
@@ -29,7 +28,7 @@ class Projects extends Component {
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
               <div className="cardWrapInner">
                 <div className="imgWrap">
-                  <img src="https://github.com/basktballer/TheWallMidterm/raw/master/docs/desktop-home.png"/>
+                  <img src="https://github.com/basktballer/TheWallMidterm/raw/master/docs/desktop-home.png" alt="The Wall: Screenshot"/>
                 </div>
                 <h3>The Wall: Midterm</h3>
                 <h4>Description</h4>
@@ -41,7 +40,7 @@ class Projects extends Component {
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
               <div className="cardWrapInner">
                 <div className="imgWrap">
-                  <img src="https://github.com/karlchvojka/lhl-tinyApp-project/raw/master/docs/tinyapp1.png"/>
+                  <img src="https://github.com/karlchvojka/lhl-tinyApp-project/raw/master/docs/tinyapp1.png" alt="Tiny App Screenshot"/>
                 </div>
                 <h3>Tiny App</h3>
                 <h4>Description</h4>
@@ -52,7 +51,7 @@ class Projects extends Component {
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
               <div className="cardWrapInner">
                 <div className="imgWrap">
-                  <img src="https://github.com/karlchvojka/tweeter/raw/master/docs/screenshot1.png"/>
+                  <img src="https://github.com/karlchvojka/tweeter/raw/master/docs/screenshot1.png" alt="Tweeter screenshot"/>
                 </div>
                 <h3>Tweeter App</h3>
                 <h4>Description</h4>
@@ -63,7 +62,7 @@ class Projects extends Component {
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
               <div className="cardWrapInner">
                 <div className="imgWrap">
-                  <img src="https://github.com/karlchvojka/chatty_app/raw/master/docs/home2.png"/>
+                  <img src="https://github.com/karlchvojka/chatty_app/raw/master/docs/home2.png" alt="Chatty app"/>
                 </div>
                 <h3>Chatty App</h3>
                 <h4>Description</h4>
@@ -74,7 +73,7 @@ class Projects extends Component {
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
               <div className="cardWrapInner">
                 <div className="imgWrap">
-                  <img src="https://github.com/karlchvojka/jungle-rails/raw/master/docs/jungle1.png"/>
+                  <img src="https://github.com/karlchvojka/jungle-rails/raw/master/docs/jungle1.png" alt="jungle screenshot"/>
                 </div>
                 <h3>Jungle App</h3>
                 <h4>Description</h4>
