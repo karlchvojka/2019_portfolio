@@ -9,12 +9,7 @@ class Resume extends Component {
           <Row className="headerWrap">
           <Col className="controlWrap" xl={12} lg={12} md={12} sm={12} xs={12}>
           <div>
-          <p>To save as pdf:</p>
-          <ol>
-            <li>Right click, click 'Print'</li>
-            <li>Change Destination to 'Save as PDF'</li>
-            <li>Press Save</li>
-          </ol>
+          <p>To save as pdf: 1. Right click, click 'Print' 2. Change Destination to 'Save as PDF' 3. Press Save</p>
           </div>
           <ul className="ml-auto">
             <li><a className="btn btn-primary" href="/" target= "_blank">Go Back</a></li>
@@ -265,12 +260,6 @@ class Resume extends Component {
                   <li><p>Adobe Software Collection</p></li>
                   <li><p>Responsive Design</p></li>
                   <li><p>Web Design</p></li>
-                  <li><p></p></li>
-                  <li><p></p></li>
-                  <li><p></p></li>
-                  <li><p></p></li>
-                  <li><p></p></li>
-                  <li><p></p></li>
                 </ul>
               </Col>
             </Row>
