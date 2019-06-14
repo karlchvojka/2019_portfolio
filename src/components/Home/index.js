@@ -20,12 +20,13 @@ class Home extends Component {
   render() {
     var { articles } = this.state;
     return (
-      <Helmet>
-        <title>Karl Chvojka's Portfolio</title>
-        <meta name="description" content="The Web Development Portfolio for Karl Chvojka." />
-        <meta name="keywords" content="Karl Chvojka, Web Development, React, Ruby on Rails" />
-      </Helmet>
+
       <main>
+        <Helmet>
+          <title>Karl Chvojka's Portfolio</title>
+          <meta name="description" content="The Web Development Portfolio for Karl Chvojka." />
+          <meta name="keywords" content="Karl Chvojka, Web Development, React, Ruby on Rails" />
+        </Helmet>
         <MainNavbar noGutter="true"/>
         <Slider />
         <About />

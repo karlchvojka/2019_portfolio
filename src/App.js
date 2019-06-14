@@ -5,6 +5,7 @@ import Home from './components/Home/';
 import Resume from './components/Resume/';
 import About from './components/about/';
 
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.scss'
 
