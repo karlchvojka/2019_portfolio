@@ -95,9 +95,8 @@ main {
 
     h1 {
       align-self:flex-end;
-      text-shadow: 2px 2px 3px #000000;
+      text-shadow: 3px 3px 2px #000000;
       color:#00abdf;
-      margin-left:2.5rem;
     }
   }
   img {
@@ -388,11 +387,31 @@ footer {
 
 // Large devices (desktops, 992px and up)
 @media only screen and (min-width: 992px) {
+  .sliderWrap {
 
+    .sliderInner {
+
+      h1 {
+        display:block;
+        width:960px;
+        margin:0px auto 2rem auto;
+      }
+    }
+  }
 }
 // Extra large devices (large desktops, 1200px and up)
 @media only screen and (min-width: 1200px) {
+  .sliderWrap {
 
+    .sliderInner {
+
+      h1 {
+        display:block;
+        width:1140px;
+        margin:0px auto 2rem auto;
+      }
+    }
+  }
 }
 
 @media print {
