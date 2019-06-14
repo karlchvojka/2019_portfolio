@@ -7,9 +7,9 @@ import About from './components/about/';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.scss'
+ReactGA.initialize('UA-18900659-1');
 
 function initializeReactGA() {
-    ReactGA.initialize('UA-18900659-1');
     ReactGA.pageview('/');
 }
 
@@ -17,7 +17,7 @@ function initializeReactGA() {
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router onUpdate={initializeReactGA}>
         <Route path="/" exact component={ Home } />
         <Route path="/about" exact component={ About } />
         <Route path="/resume" exact component={ Resume } />
