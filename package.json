@@ -16,7 +16,8 @@
     "react-ga": "^2.5.7",
     "react-helmet": "^5.2.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-snap": "^1.23.0"
   },
   "scripts": {
     "dev": "PORT=3000 react-scripts start",
