@@ -8,11 +8,6 @@ import About from './components/about/';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.scss'
 
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
-
 function initializeReactGA() {
     ReactGA.initialize('UA-18900659-1');
     ReactGA.pageview('/');
