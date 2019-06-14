@@ -4,8 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from './components/Home/';
 import Resume from './components/Resume/';
 import About from './components/about/';
-import "core-js/stable";
-import "regenerator-runtime/runtime";
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.scss'
