@@ -5,6 +5,11 @@ class Resume extends Component {
   render() {
     return (
       <main className="resumeWrap">
+        <Helmet>
+          <title>Karl Chvojka's Portfolio - Resume</title>
+          <meta name="description" content="Karl Chvojka's Resume." />
+          <meta name="keywords" content="Karl Chvojka, Web Development, React, Ruby on Rails, Resume" />
+        </Helmet>
         <Container fluid="true">
           <Row className="headerWrap">
           <Col className="controlWrap" xl={12} lg={12} md={12} sm={12} xs={12}>
