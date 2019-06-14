@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import MainNavbar from '../navbar/navbar.js'
+import { Helmet } from 'react-helmet';
+import MainNavbar from '../navbar/navbar.js';
 import Slider from '../slider/';
 import About from '../about/';
 import Skills from '../skills';
@@ -17,15 +18,21 @@ class Home extends Component {
       }
   };
   render() {
+    var { articles } = this.state;
     return (
-    <main>
-      <MainNavbar noGutter="true"/>
-      <Slider />
-      <About />
-      <Skills />
-      <Projects />
-      <Footer />
-    </main>
+      <Helmet>
+        <title>Karl Chvojka's Portfolio</title>
+        <meta name="description" content="The Web Development Portfolio for Karl Chvojka." />
+        <meta name="keywords" content="Karl Chvojka, Web Development, React, Ruby on Rails" />
+      </Helmet>
+      <main>
+        <MainNavbar noGutter="true"/>
+        <Slider />
+        <About />
+        <Skills />
+        <Projects />
+        <Footer />
+      </main>
     )
   }
 }
