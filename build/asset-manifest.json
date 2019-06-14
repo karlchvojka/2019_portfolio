@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1c8acd4c.chunk.css",
+    "main.js": "/static/js/main.90e47588.chunk.js",
+    "main.js.map": "/static/js/main.90e47588.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.266e55a5.chunk.css": "/static/css/2.266e55a5.chunk.css",
+    "static/js/2.09586569.chunk.js": "/static/js/2.09586569.chunk.js",
+    "static/js/2.09586569.chunk.js.map": "/static/js/2.09586569.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5a71686fa25dd7b2150211ea334829dd.js": "/precache-manifest.5a71686fa25dd7b2150211ea334829dd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.1c8acd4c.chunk.css.map": "/static/css/main.1c8acd4c.chunk.css.map",
+    "static/media/App.scss": "/static/media/chronicink-slider2.2ea3553d.jpg",
+    "static/media/head1.png": "/static/media/head1.0ff73a84.png",
+    "static/media/hexapixel_logo.jpg": "/static/media/hexapixel_logo.5a46b1d5.jpg"
+  }
+}
