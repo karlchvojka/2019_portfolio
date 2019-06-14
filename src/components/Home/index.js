@@ -18,7 +18,6 @@ class Home extends Component {
       }
   };
   render() {
-    var { articles } = this.state;
     return (
 
       <main>
