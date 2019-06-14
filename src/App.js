@@ -7,14 +7,16 @@ import About from './components/about/';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.scss'
-ReactGA.initialize('UA-18900659-1');
-
-function initializeReactGA() {
-    ReactGA.pageview('/');
-}
-
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      someData: null;
+    };
+    ReactGA.initialize('UA-18900659-1');
+    ReactGA.pageview(window.location.pathname);
+  }
   render() {
     return (
       <Router onUpdate={initializeReactGA}>
