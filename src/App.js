@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from './components/Home/';
 import Resume from './components/Resume/';
 import About from './components/about/';
+import NotFound from './components/NotFound/';
 
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -24,6 +25,7 @@ class App extends Component {
         <Route path="/" exact component={ Home } />
         <Route path="/about" exact component={ About } />
         <Route path="/resume" exact component={ Resume } />
+        <Route path="*" exact component={ NotFound } />
       </Router>
     );
   }
