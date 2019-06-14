@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
+
 
 class Resume extends Component {
   render() {
