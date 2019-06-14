@@ -12,14 +12,14 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      someData: null;
+      someData: null
     };
     ReactGA.initialize('UA-18900659-1');
     ReactGA.pageview(window.location.pathname);
   }
   render() {
     return (
-      <Router onUpdate={initializeReactGA}>
+      <Router>
         <Route path="/" exact component={ Home } />
         <Route path="/about" exact component={ About } />
         <Route path="/resume" exact component={ Resume } />
