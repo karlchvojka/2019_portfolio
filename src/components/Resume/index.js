@@ -207,14 +207,12 @@ class Resume extends Component {
                     <h4>Digital Media Producer Diploma</h4>
                   </Col>
                   <Col className="dateWrap" xl={4} lg={4} md={4} sm={4} xs={4}>
-                    <p>Sept 2009  –  June 2010</p>
+                    <p>July 2012  –  Sept 2012</p>
                   </Col>
                 </Row>
                 <Row>
                   <Col>
-                    <p>The Web Development Bootcamp is a 12 week, 40+ hours/week bootcamp. It covers the most popular and marketable languages and frameworks used in Web Development today.</p>
-
-                    <p>The topics covered are: JavaScript, Node.js, Express, PostgreSQL, MongoDB, React, Ruby on Rails, Automated Testing, and Computer Science Fundamentals.</p>
+                    <p>Taught basic HTML, CSS, CSS3, JavaScript, Github and etc in the Digital Media Production Program.</p>
                   </Col>
                 </Row>
               </Container>
