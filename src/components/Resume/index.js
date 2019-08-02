@@ -306,7 +306,7 @@ class Resume extends Component {
                     <h4>Digital Media Production Program</h4>
                   </Col>
                   <Col className="dateWrap" xl={4} lg={4} md={4} sm={4} xs={4}>
-                    <p>Jul 2012  –  Sept 2012</p>
+                    <p>June 2010</p>
                   </Col>
                 </Row>
                 <Row>
