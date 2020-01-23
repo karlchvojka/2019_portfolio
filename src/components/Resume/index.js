@@ -49,6 +49,31 @@ class Resume extends Component {
               <Container fluid="true" className="noGutters">
                 <Row>
                   <Col xl={8} lg={8} md={8} sm={8} xs={8}>
+                    <h3>Lighthouse Labs</h3>
+                    <h4>Front-End Developer</h4>
+                  </Col>
+                  <Col className="dateWrap" xl={4} lg={4} md={4} sm={4} xs={4}>
+                    <p>Aug 2019 - Present</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <p className="keywords"><span>Noteable Keywords:</span> Customer serivce, Student Mentorship, Project Management, Marketing, Front End Development (HTML5, CSS3, CSS Grid, Flexbox), JavaScript, jQuery, Bootstrap, React, Ruby on Rails, JSX, Active Record </p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <p>Working with the Marketing team to plan and execute the building of Static ReactJs sites for marketing and promotional purposes. Working with the internal staff to maintain and upgrade internal systems in React, Ruby on Rails, etc.</p>
+                  </Col>
+                </Row>
+              </Container>
+            </Col>
+          </Row>
+          <Row className="workplaceWrap">
+            <Col xl={12} lg={12} md={12} sm={12} xs={12}>
+              <Container fluid="true" className="noGutters">
+                <Row>
+                  <Col xl={8} lg={8} md={8} sm={8} xs={8}>
                     <h3>Freelance Work</h3>
                     <h4>Full Stack Developer</h4>
                   </Col>

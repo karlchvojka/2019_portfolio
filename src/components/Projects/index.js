@@ -19,7 +19,7 @@ class Projects extends Component {
                 <div className="imgWrap">
                   <img src="https://github.com/karlchvojka/lhl-final-project/raw/master/docs/budget.png" alt="Squabble App Screenshot"/>
                 </div>
-                <h3>Squabble: Final</h3>
+                <h3>Squabble: Finals</h3>
                 <h4>Description</h4>
                 <p>Squabble is a budget splitting app. It allows users to view, record, and evenly split budgets while tracking infrequent purchases.</p>
                 <h4>Technology Used:</h4>
