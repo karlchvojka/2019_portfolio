@@ -8,7 +8,7 @@ class Footer extends Component {
         <Container>
           <Row>
             <Col xl={12} lg={12} md={12} sm={12} xs={12}>
-              <p>Copyright &copy;2019 Karl Chvojka</p>
+              <p>Copyright &copy;2020 Karl Chvojka</p>
             </Col>
           </Row>
         </Container>
