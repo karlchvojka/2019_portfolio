@@ -29,7 +29,7 @@ class Resume extends Component {
               <p>Portfolio: <a href="http://karlchvojka.com">karlchvojka.com</a></p>
               <p>Github: <a href="https://github.com/karlchvojka">https://github.com/karlchvojka</a></p>
               <p>Linkedin: <a href="https://www.linkedin.com/in/karlchvojka/">https://www.linkedin.com/in/karlchvojka/</a></p>
-              <p>Email: <a href="mailto:karl.chvojka@protonmail.com">karl.chvojka@gmail.com</a></p>
+              <p>Email: <a href="mailto:karl.chvojka@protonmail.com">karl.chvojka@protonmail.com</a></p>
             </Col>
           </Row>
           <Row className="profileWrap">
