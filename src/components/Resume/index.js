@@ -53,7 +53,7 @@ class Resume extends Component {
                     <h4>Front-End Developer</h4>
                   </Col>
                   <Col className="dateWrap" xl={4} lg={4} md={4} sm={4} xs={4}>
-                    <p>Aug 2019 - Present</p>
+                    <p>Aug 2019 - March 2020</p>
                   </Col>
                 </Row>
                 <Row>
