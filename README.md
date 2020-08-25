@@ -11,6 +11,3 @@ This build of my portfolio is a very simple but effective portfolio site.
 2. Clone
 3. run `npm install`
 4. run `npm start`
-
-## Next steps
-1. Moving the portfolio to be server side rendered.
