@@ -3,6 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+import WAImage from '../../assets/projects/weather_app.png';
+
+
 class Projects extends Component {
   render() {
     return (
@@ -14,6 +17,19 @@ class Projects extends Component {
             </Col>
           </Row>
           <Row>
+            <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
+              <div className="cardWrapInner">
+                <div className="imgWrap">
+                  <img src={WAImage} alt="Weather App Screenshot"/>
+                </div>
+                <h3>Weather App</h3>
+                <h4>Description</h4>
+                <p>This project was used specifically for practice passing props, and interacting with a third party API</p>
+                <h4>Technology Used:</h4>
+                <p>ReactJS </p>
+                <p className="githubLink"><a href="https://github.com/karlchvojka/weather-app"><FontAwesomeIcon icon={faGithub} /> View Project</a></p>
+              </div>
+            </Col>
             <Col className="cardWrap" xl={4} lg={4} md={6} sm={12} xs={12}>
               <div className="cardWrapInner">
                 <div className="imgWrap">
