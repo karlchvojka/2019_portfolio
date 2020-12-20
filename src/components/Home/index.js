@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import MainNavbar from '../navbar/navbar.js';
 import Slider from '../slider/';
@@ -10,13 +10,7 @@ import Footer from '../Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../../App.scss'
 
-class Home extends Component {
-  constructor(props){
-      super(props);
-      this.state = {
-          isLoaded: false,
-      }
-  };
+function Home() {
   render() {
     return (
 
@@ -27,7 +21,6 @@ class Home extends Component {
           <meta name="keywords" content="Karl Chvojka, Web Development, React, Ruby on Rails" />
         </Helmet>
         <MainNavbar noGutter="true"/>
-        <Slider />
         <About />
         <Skills />
         <Projects />
