@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Seperator extends Component {
+function Seperator() {
   render() {
     return (
       <div className="seperator shadow">

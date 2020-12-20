@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-class Slider extends Component {
+function Slider() {
   render() {
     return (
       <section className="sliderWrap">

@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Head1 from '../../assets/head1.png';
 
-class About extends Component {
+function About() {
   render() {
     return (
       <section id="about" className="aboutWrap">

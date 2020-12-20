@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import Logo from '../../assets/navbar/hexapixel_logo.jpg';
 
-class MainNavbar extends Component {
+function MainNavbar {
   render() {
     return (
       <Navbar bg="light" expand="lg" className="navBar">
